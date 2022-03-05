@@ -1,7 +1,7 @@
 # Discord - GuessThePrice Bot
 A simple betting/prediction bot that allows members to submit predictions on NFT auctions - A winner is the member with the closest prediction without going over the final price.
 
-###Heroku hosting ready
+### Heroku hosting ready
 
 
 ### Discord Bot Token and Server Invitation
