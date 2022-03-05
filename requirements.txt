@@ -1,4 +1,7 @@
+beautifulsoup4==4.10.0
+bs4==0.0.1
 disnake==2.4.0
 python-dotenv==0.19.2
+requests==2.27.1
 tabulate==0.8.9
 

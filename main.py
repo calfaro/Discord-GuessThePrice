@@ -1,3 +1,25 @@
+'''
+GuessThePrice - A simple predicion bot for NFT auctions
+
+--Requirements--
+- Python 3.9+
+- Disnake 2.4+
+- Tabulate 0.8.9
+- python-dotenv 0.19.2
+- bs4 0.0.1
+- requests 2.27.1
+
+
+COMMANDS
+- /openbets - admin only, allows members to start submitting predictions on the event
+- /placebet - members submit their prediction, stored in predictions.json
+- /showbets - pulls the list of members and their predictions currently stored and displays in a clean table
+- /closebets - admin only, disables the /placebet command - results in an error message
+- /finalprice - admin only, admin submits the final outcome/price of the event and the bot calculates the winner that was closest without going over.
+
+
+'''
+
 from disnake import Intents
 from disnake.ext import commands
 from dotenv import load_dotenv

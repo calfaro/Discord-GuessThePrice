@@ -11,7 +11,7 @@ async def clear_predictions():
     """clear all predictions and load json back to defaul"""
     data = {}
     data["open"] = False
-    data["currency"] = currency
+    data["currency"] = 'USD'
     data["predictions"] = []
     await dump_predictions(data)
 
