@@ -1,4 +1,4 @@
-'''
+"""
 GuessThePrice - A simple predicion bot for NFT auctions
 
 --Requirements--
@@ -18,7 +18,7 @@ COMMANDS
 - /finalprice - admin only, admin submits the final outcome/price of the event and the bot calculates the winner that was closest without going over.
 
 
-'''
+"""
 
 from disnake import Intents
 from disnake.ext import commands

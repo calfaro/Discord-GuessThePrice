@@ -25,7 +25,7 @@ class Confirm(View):
 
         # complete interaction by editing the original confirmation message
         await interaction.response.send_message(
-            f'{interaction.author.mention} just placed a prediction of {self.currency} {self.price}'
+            f"{interaction.author.mention} just placed a prediction of {self.currency} {self.price}"
         )
         self.stop()
 
