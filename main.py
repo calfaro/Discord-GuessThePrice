@@ -39,7 +39,7 @@ if __name__ == "__main__":
     intents = Intents.default()
     intents.members = True
 
-    bot = commands.Bot(intents=intents, test_guilds=[947543739671412878])
+    bot = commands.Bot(intents=intents)
 
     @bot.listen()
     async def on_ready():
